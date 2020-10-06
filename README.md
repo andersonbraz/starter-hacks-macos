@@ -1,4 +1,4 @@
-# Starater Hacks macOS
+# Starter Hacks macOS
 
 My notes about starting macOS.
 
