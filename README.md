@@ -90,3 +90,15 @@ sudo echo 'eval "$(jenv init -)"' >> ~/.zshrc
 ### References
 
 [https://www.jenv.be/](https://www.jenv.be/)
+
+## Deactive Creation Files .DS_Store
+
+```
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+```
+
+## Delete Files .DS_Store
+
+```
+find /Volumes/<<LOCAL>>/ -name ".DS_Store" -exec rm -v {} \;
+```
