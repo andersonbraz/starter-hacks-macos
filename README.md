@@ -62,7 +62,7 @@ brew install htop
 [https://brew.sh/index_pt-br](https://brew.sh/index_pt-br)
 
 
-## Install Jenv
+## Install Jenv to Manage Multiple Java Version
 
 Manage your Java environment
 
