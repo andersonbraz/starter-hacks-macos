@@ -16,7 +16,7 @@ scutil --set ComputerName
 scutil --set LocalHostName
 ```
 
-## Installing Google Fonts
+## Install Google Fonts
 
 In this section, I’ll show you how to fresh install all Google Fonts on macOS. After you finished this, you’ll be able to use the Fonts in any applications.
 
@@ -40,7 +40,7 @@ git clone https://github.com/google/fonts.git google-fonts
 
 ---
 
-## Installing Homebrew
+## Install Homebrew
 
 Command:
 
@@ -60,3 +60,33 @@ brew install htop
 ### References
 
 [https://brew.sh/index_pt-br](https://brew.sh/index_pt-br)
+
+
+## Install Jenv
+
+Manage your Java environment
+
+
+### Step 01 - Install
+
+```
+brew install jenv
+```
+
+### Step 02 - Settings BASH
+
+```
+sudo echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
+sudo echo 'eval "$(jenv init -)"' >> ~/.bash_profile
+```
+
+### OR Settings ZSH
+
+```
+sudo echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+sudo echo 'eval "$(jenv init -)"' >> ~/.zshrc
+```
+
+### References
+
+[https://www.jenv.be/](https://www.jenv.be/)
