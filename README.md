@@ -2,6 +2,22 @@
 
 My notes about starting macOS.
 
+##
+
+Change ComputerName and LocalHostName
+
+### Check Name
+```
+scutil --get ComputerName
+scutil --get LocalHostName
+```
+
+#### Set Nam
+```
+scutil --set ComputerName
+scutil --set LocalHostName
+```
+
 ## Installing Google Fonts
 
 In this section, I’ll show you how to fresh install all Google Fonts on macOS. After you finished this, you’ll be able to use the Fonts in any applications.
