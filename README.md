@@ -42,7 +42,7 @@ git clone https://github.com/google/fonts.git google-fonts
 
 ## Installing Homebrew
 
-
+Command:
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
