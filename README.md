@@ -2,9 +2,7 @@
 
 My notes about starting macOS.
 
-##
-
-Change ComputerName and LocalHostName
+## Change ComputerName and LocalHostName
 
 ### Check Name
 ```
