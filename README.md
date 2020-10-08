@@ -10,7 +10,7 @@ scutil --get ComputerName
 scutil --get LocalHostName
 ```
 
-#### Set Name
+### Set New Name
 ```
 scutil --set ComputerName
 scutil --set LocalHostName
