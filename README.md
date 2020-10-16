@@ -55,8 +55,6 @@ The next step is to download all Google Fonts git repository. Copy and paste fol
 ```
 brew install wget
 brew install htop
-brew tap kitsuyui/homebrew-myip
-brew install myip
 ```
 
 ### References
