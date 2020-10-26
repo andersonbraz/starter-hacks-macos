@@ -103,3 +103,41 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 ```
 find /Volumes/<<LOCAL>>/ -name ".DS_Store" -exec rm -v {} \;
 ```
+
+## The Quick Guide (TL;DR) to Get Node.js Installed using nvm
+
+Here's the abbreviated guide, highlighting the major steps:
+
+Download the nvm install script via cURL:
+
+```shell
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+```
+
+Ensure that nvm was installed correctly with nvm --version, which should return the version of nvm installed.
+
+Install the version of Node.js you want
+
+Install the latest version with:
+
+```shell
+nvm install node
+```
+
+Use the latest version with:
+
+```shell
+nvm use node
+```
+
+Install the latest LTS version with 
+
+```shell
+nvm install --lts
+```
+
+Use the latest LTS verison with 
+
+```shell
+nvm use --lts
+```
